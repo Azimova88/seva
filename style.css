@@ -1,49 +1,27 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: #f2dbc0;
-  border: 10px solid #932727;
+body{
+    background-color: #2f4f4f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding: 40px;
 }
 
-header {
-  background-color: cyan;
-  text-align: center;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
+.title{
+    background-color: #2b0000;
+    color: white;
+    padding:10px 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
-
-.container {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.box{
+    border: 5px solid red;
+    background-color: black;
+    padding: 20px;
 }
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-}
-
-button{
-  margin-top: 10px;
-  padding: 10px 20px;
-  background: black;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-
-}
-
-h1{
-    text-align: center;
+.content{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-bottom: 20px;
 }
